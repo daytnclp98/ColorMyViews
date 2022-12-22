@@ -79,8 +79,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/how_to_play"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="232dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/info_text"
+        tools:layout_editor_absoluteX="23dp" />
 
     <TextView
         android:id="@+id/info_text"
